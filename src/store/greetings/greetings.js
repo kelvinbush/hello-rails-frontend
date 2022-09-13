@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 const GET_GREETING = 'helloRailsReact/GET_GREETING';
 
@@ -9,15 +9,14 @@ const greetingFetched = (text) => ({
   },
 });
 
-
 export const getGreeting = () => async (dispatch) => {
   try {
     const response = await axios.get('http://localhost:3000/greetings');
-    dispatch(greetingFetched(response.data))
+    dispatch(greetingFetched(response.data));
   } catch (e) {
-    console.log(e)
+    console.log(e);
   }
-}
+};
 
 export default function reducer(state = [], action) {
   switch (action.type) {
