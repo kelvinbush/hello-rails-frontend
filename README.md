@@ -2,7 +2,8 @@
 
 # HELLO-RAILS-APP
 
-> A React app that consumes a rails API to display a random greeting.
+> A React app that consumes a [rails API](https://github.com/kelvinbush/hello-rails-back-end) to display a random
+> greeting.
 
 ## Built With
 
@@ -28,7 +29,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@kelvinbush](https://github.com/kelvinbush)
 - Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
-
 
 ## 🤝 Contributing
 
